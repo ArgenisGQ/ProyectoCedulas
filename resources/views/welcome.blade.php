@@ -45,6 +45,14 @@
                     </svg>
                 </div>
 
+                <div id = "app">
+                    <h1>Laravel + Vue3</h1>
+                    <example></example>
+                    <another-example></another-example>
+                </div>
+
+                <script src="{{ mix('js/app.js') }}"></script>
+
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
